@@ -9,7 +9,7 @@
         font-size: 1.5rem;
     }
     a {
-        color: var(--clr-red-lt);
+        color: var(--clr-purple);
     }
     p {
         color: var(--clr-blue-lt);
