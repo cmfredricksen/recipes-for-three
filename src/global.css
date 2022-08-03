@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime&family=Lobster+Two&family=Montserrat&display=swap');
+
+:root {
+    --clr-neutral: #fffafa;
+    --clr-black: #191970;
+    --clr-red: #c71585;
+    --clr-indigo: #4b0082;
+
+    --font-heading: "Lobster Two", "Montserrat", monospace;
+    --font-text: "Montserrat", sans-serif;
+    --font-accent: "Courier Prime", "Courier New";
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--clr-neutral);
+    color: var(--clr-black);
+}
+
+h1, h2, h3 {
+    font-family: var(--font-heading);
+}
+
+p {
+    font-family: var(--font-text);
+}
+
+a, li {
+    font-family: var(--font-accent);
+
+}
